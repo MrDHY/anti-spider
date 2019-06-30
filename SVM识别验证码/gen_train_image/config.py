@@ -1,0 +1,11 @@
+download_url = 'http://offerpub.efreemobi.com/auth/random.jpeg'  # 验证码的下载网址
+gray_value = 134                        # 最大的灰度值
+offset_x = 1                            # x方向的偏移量
+offset_y = 5                            # y方向的偏移量
+images_path = './images'               # 验证码保存的路径
+download_count = 100                    # 验证码的下载张数
+black_white_path = './black_white'    # 黑白化图片的保存路径
+image_w = 18                            # 切割图片的宽
+image_h = 24                            # 切割图片的高
+denoising_path = './去噪'               # 去噪后的保存路径
+max_black_count = 2                     # 黑点附近的最大黑点数
